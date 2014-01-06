@@ -65,7 +65,6 @@ end
 
 group :development do
   gem 'therubyracer'
-  gem 'debugger', '>= 1.4.0'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'annotate'
@@ -85,7 +84,6 @@ group :development, :test do
   gem 'jslint_on_rails'
   gem 'rspec-rails'
   gem 'guard-rspec'
-  gem 'launchy'
   gem 'selenium-webdriver'
   gem 'capybara'
   gem 'database_cleaner'
